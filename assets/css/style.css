@@ -1,0 +1,76 @@
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    margin: 0 10%;
+    height: 80px;
+}
+
+#name {
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    display: flex;
+    float: left;
+    width: 280px;
+    height: 80px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+button {
+    width: 120px;
+    color: #777777;
+    background: white;
+    border-width: 0px;
+    height: 100px;
+    float: right;
+}
+
+#container {
+    clear: both;
+    width: 2000px;
+    height: 550px;
+    background: url(../images/qbkls.png) repeat;
+
+    overflow: auto;
+}
+
+main {
+    background: #fff;
+    border: #ccc;
+    width: 960px;
+    display: inline;
+    float: left;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 10% 10%;
+}
+
+#biopic {
+    float: left;
+    margin-right: 15px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background: #666666;
+    width: 100%;
+    border: 10px solid #4aaaa5;
+    border-width: 10px 0 0 0;
+    padding-top: 20px;
+}
+
+footer p {
+    color: white;
+}
