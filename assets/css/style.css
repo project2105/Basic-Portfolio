@@ -1,39 +1,41 @@
-html {
+body {
     width: 100%;
     height: 100vh;
+    margin: 0;
 }
 
 header {
-    margin: 0 10%;
+    margin: 0 200px;
     height: 80px;
 }
 
 #name {
     background: #4aaaa5;
     color: white;
-    padding: 20px;
-    display: flex;
-    float: left;
-    width: 280px;
-    height: 80px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    padding: 0 20px;
+    width: 240px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 200px;
+    top: 0px;
 }
 
-button {
-    width: 120px;
+#links {
+    position: static;
+    margin-left: 784px;
+    line-height: 5em; 
+    display: inline;
+}
+
+a {
+    text-decoration: none;
     color: #777777;
-    background: white;
-    border-width: 0px;
-    height: 100px;
-    float: right;
 }
 
 #container {
     clear: both;
-    width: 2000px;
-    height: 550px;
     background: url(../images/qbkls.png) repeat;
-
     overflow: auto;
 }
 
@@ -45,7 +47,7 @@ main {
     float: left;
     border: 2px solid #ddd;
     padding: 20px;
-    margin: 10% 10%;
+    margin: 5% 198px;
 }
 
 #biopic {
