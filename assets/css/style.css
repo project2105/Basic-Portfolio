@@ -23,7 +23,7 @@ header {
 
 #links {
     position: static;
-    margin-left: 784px;
+    margin-left: 774px;
     line-height: 5em; 
     display: inline;
 }
@@ -33,10 +33,15 @@ a {
     color: #777777;
 }
 
+a:hover {
+    color: #4aaaa5;
+}
+
 #container {
     clear: both;
     background: url(../images/qbkls.png) repeat;
     overflow: auto;
+    border-top: 3px solid #ccc;
 }
 
 main {
@@ -55,12 +60,72 @@ main {
     margin-right: 15px;
 }
 
-h2 {
+h2, h3 {
     color: #4aaaa5;
 }
 
 p {
     color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+form p {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 955px;
+}
+
+input[type="email"] {
+    width: 955px;
+}
+
+textarea {
+    width: 955px;
+    height: 14em;
+}
+
+input {
+    font-family : Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    color: white;
+    background: #4aaaa5;
+    border: 0;
+    padding: 10px;
+}
+
+.projects {
+    margin: 5px;
+}
+
+main div {
+    display: inline;
+}
+
+.proj_cont {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.caption {
+    width: 260px;
+    background: #4aaaa5;
+    text-align: center;
+    position: absolute;
+    bottom: 80px;
+    left: 5px;
+    padding: 20px;
 }
 
 footer {
